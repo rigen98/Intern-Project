@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>504c5299-9eb5-425e-a885-30c808c467e4</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TIMS.App.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\AnotherViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SomeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\YetAnotherViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SharedDelegate.cs" />
+  </ItemGroup>
+</Project>
