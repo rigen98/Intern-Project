@@ -35,7 +35,7 @@
             // Page3Text
             // 
             this.Page3Text.AutoSize = true;
-            this.Page3Text.Location = new System.Drawing.Point(348, 167);
+            this.Page3Text.Location = new System.Drawing.Point(285, 167);
             this.Page3Text.Name = "Page3Text";
             this.Page3Text.Size = new System.Drawing.Size(35, 13);
             this.Page3Text.TabIndex = 5;
@@ -54,7 +54,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.Page3Text);

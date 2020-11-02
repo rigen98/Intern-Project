@@ -15,7 +15,7 @@ namespace TIMS.App.WinForm
     public partial class Form3 : Form
     {
         SharedDelegate _shared;
-        Form1 form1;
+        Form4 form4;
         public Form3()
         {
             InitializeComponent();
@@ -31,9 +31,9 @@ namespace TIMS.App.WinForm
 
         public void choosePageNext(object sender, System.EventArgs e)
         {
-                form1 = new Form1();
-                form1.MdiParent = this.MdiParent;
-                form1.Show();
+                form4 = new Form4();
+                form4.MdiParent = this.MdiParent;
+                form4.Show();
                 Close();
 
         }

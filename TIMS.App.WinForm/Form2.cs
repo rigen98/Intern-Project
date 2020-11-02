@@ -14,7 +14,7 @@ namespace TIMS.App.WinForm
 {
     public partial class Form2 : Form
     {
-        private Form1 form1;
+        private Form4 form4;
         private Form3 form3;
         SharedDelegate _sharedDelegate;
         public Form2()
@@ -45,9 +45,9 @@ namespace TIMS.App.WinForm
 
         public void choosePageBack(object sender, System.EventArgs e)
         {
-            form1 = new Form1();
-            form1.MdiParent = this.MdiParent;
-            form1.Show();
+            form4 = new Form4();
+            form4.MdiParent = this.MdiParent;
+            form4.Show();
             Close();
 
         }
